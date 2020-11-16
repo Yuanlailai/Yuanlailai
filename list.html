@@ -4,23 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>泰拉大陆</title>
-    
+    <link href="css/iconfont-embedded.css" rel="stylesheet" type="text/css" /> 
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <style>
-        html,body{margin: 0%;height: 99%;width: 100%;}
+        html,body{margin: 0%;width: 100%;}
         body{background:url("assets/bgd.png") repeat;}
         li{list-style: none;}
 
         .guide0{height: 20px; width: 100%;background-color:grey;}
         .guide li{border:1px solid black;width: 24%;float: left;text-align:center;}
 
-        .ept{height: 5%;width: 100%;}
-        .left,.right{width: 15%;background-color: rgb(218, 218, 218);}
-        .middle{width: 70%;background-color:whitesmoke;}
-        .left,.middle,.right{height: 90%;float: left;}
+        .ept{height: 20px;width: 100%;}
+        .back{width: 100%;background-color: whitesmoke;min-height: 800px;}
+        .middle{min-height: 800px;width: 960px;background-color: white;margin: 0 auto;position: relative;}
 
         .middle li{list-style: circle;}
-        .middle ul{margin: 5% 5%;}
+        .ul1{margin: 0 40px;}
+        .connect{position: relative;left: 10%;top: 5%;}
+        @media screen and (max-width: 960px){
+            .li-1{width: 45%!important;}
+            .li-2{width: 45%!important;}
+            .li-3{width: 45%!important;}
+            .li-4{width: 45%!important;}
+            .guide0{height: 40px;}
+
+            .middle{max-width: 960px;width: 100%;}
+
+        }
+
+
+
 
     </style>
 
@@ -28,25 +41,21 @@
 <body>
     <div class="guide0">
         <ul class="guide">
-            <li><a href="./index.html">首页</a></li>
-            <li><a href="./list.html">人物列表</a></li>
-            <li><a href="./Lancet-2.html">Lancet-2(beta)</a></li>
-            <li><a href="./comment_form.html">发表评论(beta)</a></li>
+            <li class="li-1"><a href="./index.html"><i class="icon-font i-home">首页</i></a></li>
+            <li class="li-2"><a href="./list.html"><i class="icon-font i-user-group-border">人物列表</i></a></li>
+            <li class="li-3"><a href="./Lancet-2.html"><i class="icon-font i-emotion">Lancet-2(beta)</i></a></li>
+            <li class="li-4"><a href="./comment_form.html"><i class="icon-font i-message">发表评论(beta)</i></a></li>
         </ul>
     </div>
     <div class="ept"></div>
-    <div class="left">
-        <ul class="">
-            <li><a href="">A</a></li><br>
-            <li><a href="">B</a></li><br>
-            <li><a href="">C</a></li><br>
-            <li><a href="">D</a></li>
-        </ul>
-    </div>
+    <div class="back">
+
+    
     
     <div class="middle">
-        <ul>
-            <li><a href="">A</a></li><br>
+        <ul class="ul1">
+            <br><br>
+            <li><a href="./Lancet-2.html">Lancet-2</a></li><br>
             <li><a href="">B</a></li><br>
             <li><a href="">C</a></li><br>
             <li><a href="">D</a></li><br>
@@ -58,10 +67,7 @@
         </ul>
     </div>
 
-    <div class="right">
-
-    </div>
-
+</div>
 
 
 

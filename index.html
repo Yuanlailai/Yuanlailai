@@ -4,41 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>泰拉大陆</title>
-    
+    <link href="css/iconfont-embedded.css" rel="stylesheet" type="text/css" /> 
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <style>
-        html,body{margin: 0%;height: 99%;width: 100%;}
+        html,body{margin: 0%;width: 100%;}
         body{background:url("assets/bgd.png") repeat;}
 
         .guide0{height: 20px; width: 100%;background:grey;}
         .guide li{border:1px solid black;width: 24%;float: left;text-align:center;list-style: none;}
+        .ept{height: 40px;}
+        .back{width: 100%;background-color: whitesmoke;min-height: 800px;}
+        .middle{min-height: 800px;width: 960px;background-color: white;margin: 0 auto;position: relative;}
+
+
+        .connect{position:absolute;bottom:0%;left: 45%;}
+
+        @media screen and (max-width: 960px){
+            .li-1{width: 45%!important;}
+            .li-2{width: 45%!important;}
+            .li-3{width: 45%!important;}
+            .li-4{width: 45%!important;}
+            .guide0{height: 40px;}
+
+            .middle{max-width: 960px;width: 100%;}
+
+        }
     </style>
 
 </head>
 <body>
     <div class="guide0">
         <ul class="guide">
-            <li><a href="./index.html">首页</a></li>
-            <li><a href="./list.html">人物列表</a></li>
-            <li><a href="./Lancet-2.html">Lancet-2(beta)</a></li>
-            <li><a href="./comment_form.html">发表评论(beta)</a></li>
+            <li class="li-1"><a href="./index.html"><i class="icon-font i-home">首页</i></a></li>
+            <li class="li-2"><a href="./list.html"><i class="icon-font i-user-group-border">人物列表</i></a></li>
+            <li class="li-3"><a href="./Lancet-2.html"><i class="icon-font i-emotion">Lancet-2(beta)</i></a></li>
+            <li class="li-4"><a href="./comment_form.html"><i class="icon-font i-message">发表评论(beta)</i></a></li>
         </ul>
+    <div class="ept"></div>
+    <div class="back">
+        <div class="middle">
+            <a href="tencent://message/?uin=424459658" class="connect">
+                <i class="icon-font i-qq-new">424459658</i>
+            </a>
+        </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
