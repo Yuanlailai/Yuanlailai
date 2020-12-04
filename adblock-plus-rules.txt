@@ -15,4 +15,4 @@ bilibili.com##.vcd
 
 saigaocy.club##.banner-card
 
-18moe.vip##.alignnone
+||18moe.vip##.alignnone
