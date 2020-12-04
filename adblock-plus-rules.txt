@@ -2,6 +2,7 @@
 ! Title: Yuanlailai's Personal Rules
 ! Version: 202012042000
 ! Last modified: 04 Dec 2020 20:00 UTC
+! Homepage: https://github.com/Yuanlailai/Yuanlailai
 18moe.vip##.alignnone
 live.bilibili.com##.penury-gift-msg
 live.bilibili.com##.chat-item
