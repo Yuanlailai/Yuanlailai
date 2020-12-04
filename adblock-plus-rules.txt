@@ -19,3 +19,4 @@ bilibili.com##.bilibili-player-video-popup-follow
 bilibili.com##.vcd
 saigaocy.club##.banner-card
 bbs.nga.cn##.overlay
+bbs.nga.cn###mmc
