@@ -3,7 +3,7 @@
 ! Version: 202012042000
 ! Last modified: 04 Dec 2020 20:00 UTC
 ! Homepage: https://github.com/Yuanlailai/Yuanlailai
-18moe.vip##.alignnone
+18moe.vip##.alignnone size-full
 live.bilibili.com##.penury-gift-msg
 live.bilibili.com##.chat-item
 live.bilibili.com##.flip-view-image.dp-i-block.v-top.w-100.h-100.ts-dot-4
